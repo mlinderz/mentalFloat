@@ -1,6 +1,14 @@
 import React from 'react';
-import Button from "./components/Button"
+import Button from "./components/Button";
 import './App.css';
+import { BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom';
+import Sleep from './components/sleep';
+import Meditate from './components/meditate';
+import Motivation from './components/motivation';
+import Therapy from './components/therapy';
+import Workout from './components/exercise';
+import Outside from './components/outside';
+
 
 function App() {
   return (
@@ -13,15 +21,15 @@ function App() {
         <div class="row">
         <div class="column">
         <Button text='Alternative Sleep Support' src="/sleep.jpeg" href="/sleep"/>
-        <Button text='Take a Moment to Meditate' src="/meditate.jpeg" href="https://www.google.com"/>
+        <Button text='Take a Moment to Meditate' src="/meditate.jpeg" href= {Meditate}/>
         </div>
         <div class="column">
-        <Button text='Read Something Motivational' src="/motivation.jpeg" href="https://www.google.com"/>
-        <Button text='Find Someone to Talk To' src="/therapy.jpeg" href="https://www.google.com"/>
+        <Button text='Read Something Motivational' src="/motivation.jpeg" href= {Motivation}/>
+        <Button text='Find Someone to Talk To' src="/therapy.jpeg" href= {Therapy}/>
         </div>
         <div class="column">
-        <Button text='Get Moving' src="/workout.jpeg" href="https://www.google.com"/>
-        <Button text='Get Outside' src="/outside.jpeg" href="https://www.google.com"/>
+        <Button text='Get Moving' src="/workout.jpeg" href= {Workout}/>
+        <Button text='Get Outside' src="/outside.jpeg" href= {Outside}/>
         </div>
         </div>
 
