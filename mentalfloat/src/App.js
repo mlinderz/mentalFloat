@@ -12,7 +12,7 @@ function App() {
         <h2></h2>
         <div class="row">
         <div class="column">
-        <Button text='Alternative Sleep Support' src="/sleep.jpeg" href="https://www.google.com"/>
+        <Button text='Alternative Sleep Support' src="/sleep.jpeg" href="/sleep"/>
         <Button text='Take a Moment to Meditate' src="/meditate.jpeg" href="https://www.google.com"/>
         </div>
         <div class="column">
