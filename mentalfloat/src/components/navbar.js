@@ -19,6 +19,8 @@ function NavBar() {
         <NavDropdown.Item href="/motivation">Motivation</NavDropdown.Item>
         <NavDropdown.Item href="/meditate">Meditate</NavDropdown.Item>
         <NavDropdown.Item href="/therapy">Therapy</NavDropdown.Item>
+        <NavDropdown.Item href="/hike">Hike</NavDropdown.Item>
+        <NavDropdown.Item href="/workout">Workout</NavDropdown.Item>
       </NavDropdown>
     </Nav>
    
