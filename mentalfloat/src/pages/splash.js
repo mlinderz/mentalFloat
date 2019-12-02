@@ -2,8 +2,6 @@ import React from 'react';
 import Button from "../components/Button";
 
 
-
-
 function App() {
   return (
     <div className="App">
@@ -18,7 +16,6 @@ function App() {
         <Button src="/motivation.jpeg" href= "/motivation"/>
         </div>
         <div class="column">
-
         <Button src="/sleep.jpeg" href="/sleep"/>
         <Button src="/therapy.jpeg" href= "/therapy"/>
         </div>

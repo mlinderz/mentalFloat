@@ -9,7 +9,7 @@
 }
 
 .App-header {
-  background-color: #AAE0DF;
+  background-color: #89B0B8;
   min-height: 19vh;
   display: flex;
   flex-direction: column;
@@ -27,6 +27,7 @@
   display: flex;
   flex-wrap: wrap;
   padding: 0 4px;
+  text-align: center;
 }
 
 .column {
