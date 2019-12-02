@@ -1,21 +1,7 @@
 import React from 'react';
 import '../App.css';
-import { Map, GoogleApiWrapper } from 'google-maps-react';
 
-// render() {
-//   return (
-//       <Map
-//         google={this.props.google}
-//         zoom={8}
-//         style={mapStyles}
-//         initialCenter={{ lat: 47.444, lng: -122.176}}
-//       />
-//   );
-// }
 
-// export default GoogleApiWrapper({
-//   apiKey: 'AIzaSyCWL27bkwx4JyK9jrnycKqTnc44rtYDSaw'
-// })(MapContainer);
 
 
 function OutsidePage() {
@@ -25,6 +11,7 @@ function OutsidePage() {
       <img src="/mentalfloat.png" className="App-logo" alt="logo" />
         </header>
         <h1>Outside</h1>
+        <iframe width="600" height="450" frameBorder="0" style={{border: 0}} src="https://www.google.com/maps/embed/v1/search?q=hikes%20in%20san%20Francisco%2C%20CA&key=AIzaSyCWL27bkwx4JyK9jrnycKqTnc44rtYDSaw" allowFullScreen></iframe>
     </div>
   );
 }
