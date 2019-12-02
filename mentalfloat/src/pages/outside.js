@@ -2,8 +2,6 @@ import React from 'react';
 import '../App.css';
 
 
-
-
 function OutsidePage() {
   return (
     <div className="App">
