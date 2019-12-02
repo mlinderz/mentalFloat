@@ -9,6 +9,7 @@ function MotivationPage() {
         </header>
         <h1>Motivation</h1>
         <h2></h2>
+        
     </div>
   );
 }
