@@ -4,7 +4,7 @@ import './Button.css'
 function Button(props) {
   return (
       <a href={props.href}>
-    <img src={props.src}/>
+    <img className="image" src={props.src}/>
       </a>
   );
 }
