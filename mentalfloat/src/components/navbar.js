@@ -9,7 +9,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 
 function NavBar() {
     return (
-<Navbar bg="dark" className="text-white" expand="lg">
+<Navbar bg="dark" bg="dark" variant="dark" expand="lg">
   <Navbar.Brand href="/">Mental Float</Navbar.Brand>
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
   <Navbar.Collapse id="basic-navbar-nav">
@@ -19,7 +19,7 @@ function NavBar() {
         <NavDropdown.Item href="/motivation">Motivation</NavDropdown.Item>
         <NavDropdown.Item href="/meditate">Meditate</NavDropdown.Item>
         <NavDropdown.Item href="/therapy">Therapy</NavDropdown.Item>
-        <NavDropdown.Item href="/hike">Hike</NavDropdown.Item>
+        <NavDropdown.Item href="/outside">Hike</NavDropdown.Item>
         <NavDropdown.Item href="/workout">Workout</NavDropdown.Item>
       </NavDropdown>
     </Nav>

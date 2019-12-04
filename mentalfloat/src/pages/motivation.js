@@ -1,40 +1,17 @@
 import React from 'react';
 import '../App.css';
-import MotivationButton from "../components/MotivationButton"
+import ReactPlayer from 'react-player';
 
-class MotivationPage extends React.Component {
-
-  state= {list:[]}
-
-  componentDidMount(){
-    const nytAPIkey = "2GYuC8miX6UGJhKCRRCA5GG1y4ct5DMi"
-    const whatToRead= "Motivational Story"
-    fetch(`https://api.nytimes.com/svc/search/v2/articlesearch.json?q=${whatToRead}&api-key=${nytAPIkey}`)
-      .then(res=>res.json())
-      .then(data=>{
-        this.setState({list: data.response.docs})
-        console.log(data)
-      }, 
-        error=>console.log("something bad happened"))
-
-
-  }
-
-  render(){
+function MotivationPage() {
   return (
     <div className="App">
       <header className="App-header">
       <img src="/mentalfloat.png" className="App-logo" alt="logo" />
         </header>
-        <h1>Motivation</h1>
-        <h2></h2>
-        {this.state.list.map(article=>{
-          return(
-            <MotivationButton href={article.web_url}>{article.headline.main}</MotivationButton>
-          )
-        })}
+        <h1>Listen to a Motivational Speech</h1>
+        <h3> <div className='player-wrapper'><ReactPlayer url='https://www.youtube.com/watch?v=iCvmsMzlF7o' playing /></div></h3>
     </div>
-  );}
+  );
 }
 
 export default MotivationPage; 
