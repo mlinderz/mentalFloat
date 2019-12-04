@@ -1,6 +1,7 @@
 .App {
   text-align: center;
   background-color:#89B0B8;
+  padding-bottom: 100px;
 }
 
 .App-logo {
@@ -57,4 +58,8 @@ h1 {
   padding-left: 300px;
   width: fit-content;
   height: fit-content;
+}
+
+.image2{
+  height: 100px;
 }

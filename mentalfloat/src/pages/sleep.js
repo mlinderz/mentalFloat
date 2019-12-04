@@ -8,7 +8,7 @@ function SleepPage() {
       <header className="App-header">
       <img src="/mentalfloat.png" className="App-logo" alt="logo" />
         </header>
-        <h1>Sleep</h1>
+        <h1>Proven Alternative Methods for Better Sleep</h1>
         <h2></h2>
         <div class="row">
         <div class="column">
