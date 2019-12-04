@@ -26,14 +26,14 @@
 .row {
   display: flex;
   flex-wrap: wrap;
-  padding: 0 4px;
+  padding: 0 6px;
   text-align: center;
 }
 
 .column {
-  flex: 25%;
-  max-width: 25%;
-  padding: 0 4px;
+  flex: 33%;
+  max-width: 33%;
+  padding: 0 6px;
 }
 
 .column img {
